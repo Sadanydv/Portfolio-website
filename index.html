@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="portfoliojs.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="js/typed.min.js"></script>
+</head>
+<body> 
+<header>
+	<nav>
+		<div class="logo">PORTFO<span>LIO</span></div>
+		<div class="menu">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Skills</a>
+			<a href="#">Services</a>
+			<a href="#">Contact</a>
+		</div>
+	</nav>
+
+	<div class="text">
+		<p>Hello, I am</p>
+		<h1>Sadan Yadav</h1>
+		<p>And I Am a <span id="ani" style="color: #e74c3c"></span></p>
+		<button class="btn">Hire Me</button>
+	</div>
+
+</header>
+
+
+
+<section id="about">
+	<div class="section-info">
+		<h1>About</h1>
+		<p>Who I Am?</p>
+	</div>
+
+	<div class="about-row">
+		<div class="about-left-col">
+			<img src="img\sadan.jpg">
+		</div>
+		<div class="about-right-col">
+		<p id="p-title">
+		Hello, I'm Sadan & I'm a <span id="ani2" style="color: #e74c3c"></span>
+		</p>
+		<p>
+	        A front-end developer is someone who takes a client or design team’s website design and writes the code needed to implement it on the web. A decent front-end web developer will be fluent in at least three programming languages - HTML, CSS, and JavaScript.And to that I also teaches front-end development on my 
+			Youtube channel.
+		</p>
+		    <button class="btn">
+		         <a href="Resume.pdf">Download CV<a>
+		    </button>
+		</div>
+		
+	</div>
+
+
+</section>
+
+
+<section id="skills">
+	
+	<div class="section-info">
+		<h1 style="color: white;">Skill's</h1>
+		<p>What I know?</p>
+	</div>
+
+	<div class="skills-row">
+		<div class="skills-left-col">
+			
+			<p style="color:white">
+				
+				As a front-end developer I am very much familiar with the tools and technology that is used to develop the front-end architecture i..e HTML,CSS, JAVASCRIPT and REACTJS and apart from that I have strong knowledge on  c++,java,bootstrap,operating system,DBMS,CN,OOPS concept and I am good at problem solving skill on DSA and I am 3 star coder at codechef.
+			</p>
+			<button class="btn">Read more</button>
+		</div>
+		<div class="skills-right-col">
+			<div class="progress-div">
+				<p>
+					<span>HTML</span><br>
+					<progress value="60" max="100"></progress><span>60%</span>
+				</p>
+
+				<p>
+					<span>CSS</span><br>
+					<progress value="30" max="100"></progress><span>30%</span>
+				</p>
+
+				<p>
+					<span>JAVASCRIPT</span><br>
+					<progress value="60" max="100"></progress><span>60%</span>
+				</p>
+
+				<p>
+					<span>ReactJs</span><br>
+					<progress value="20" max="100"></progress><span>20%</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section id="Services">
+	
+	<div class="section-info">
+		<h1 style="color: blac;">Services</h1>
+		<p>What We Provide?</p>
+	</div>
+
+	<div class="Services-row">
+		<div class="Services-box" data-tilt>
+			<img src="img\b2.png">
+			<h2>Web Design</h2>
+			<p>A web Designer is one who designs the architecture of the web before the implementation by the web Developer</p>
+		</div>
+		<div class="Services-box" data-tilt>
+			<img src="img\b2.png">
+
+			<h2>Web Development</h2>
+			<p>A front-end developer in one who implements the desing of web designer in the realtime</p>
+
+		</div>
+		<div class="Services-box" data-tilt>
+			<img src="img\b2.png">
+			<h2>App Developer</h2>
+			<p>An App developer is one who develops the overall functioning and implements in real time i.e mobile app</p>
+		</div>
+
+
+
+	</div>
+
+</section>
+
+
+<section id="contact">
+
+	<div class="section-info">
+		<h1 style="color: white;">Get In Touch</h1>
+		<p style="color:black;">We Are Available</p>
+	</div>
+
+	<div class="contact-row">
+		<div class="contac-left-col">
+			<img src="img\b3.png">
+		</div>
+		<div class="contact-right-col">
+			<form id="form">
+				<h2>Connect with us </h2>
+				<input type="text" id="username" name="" placeholder="Name">
+				<input type="email" id="email" name="" placeholder="E-mail">
+				<br>
+				<textarea cols="40" id="message" rows="10" placeholder="messages"></textarea>
+				<br>
+				<button class="btn">Submit</button>
+			</form>
+		</div>
+	</div>
+	
+</section>
+
+<section id="footer">
+	<h2>Developed by Sadan Yadav</h2>
+	<img src="img\icon.png" width="100">
+</section>
+
+
+<script>
+	var animate=new Typed('#ani',{
+		strings:["Front End Developer"],
+		typeSpeed:100,
+		backSpeed:100,
+		loop:true,
+	})
+</script>
+
+<script>
+	var animate=new Typed('#ani2',{
+		strings:["Front End Developer"],
+		typeSpeed:100,
+		backSpeed:100,
+		loop:true,
+	})
+</script>
+
+<script src="js/tilt.jquery.min.js"></script>
+</body>
+</html>
