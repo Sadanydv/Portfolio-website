@@ -36,6 +36,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position:Fixed;
 }
 .logo span{
 	color:maroon;
